@@ -1,0 +1,57 @@
+header {
+  background-color: antiquewhite; }
+  header div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    header div a img {
+      max-with: 100%; }
+    header div ul {
+      display: flex;
+      padding-right: 15ps; }
+      header div ul li {
+        list-style: none;
+        padding-right: 3rem; }
+        header div ul li a {
+          text-decoration: none;
+          font-size: 30px;
+          color: #343434; }
+
+.nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #161615;
+  font-size: 2rem; }
+
+.parrafo {
+  content-with: 50%; }
+
+.obras {
+  background-color: antiquewhite; }
+  .obras .a {
+    background-image: url(../images/casaobras.jpg); }
+  .obras .b {
+    background-image: url(../images/obramultivivienda.jpg); }
+  .obras .c {
+    background-image: url(../images/edificio.jpg); }
+  .obras .d {
+    background-image: url(../images/comercios.jpg); }
+
+footer {
+  background-color: #161615;
+  display: flex; }
+  footer content {
+    display: flex;
+    max-width: 50%; }
+    footer content legend {
+      padding: 5px;
+      color: antiquewhite;
+      align-items: center; }
+    footer content label {
+      color: antiquewhite;
+      padding-top: 5px;
+      padding-left: 10px; }
+    footer content input {
+      background-color: #343434;
+      color: grey; }

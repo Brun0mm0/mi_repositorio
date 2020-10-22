@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- Tag Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+	<title>ArqeuitectuAR</title>
+	<!--Mis estilos-->
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<!-- CDN de Bootstrap del CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body >
+	<header>
+	<div>	
+		<a href="index.html">
+			<img src="images/logo.png" alt="ejemplo">	
+		</a>
+	<nav>     
+		<ul>
+			<li ><a href="#nos">Nosotros</a></li> 
+			<li ><a href="#obras">Obras</a></li>
+			<li ><a href="#propiedades">Propiedades</a></li>
+			<li ><a href="Pages/contacto.html">Contacto</a></li>
+		</ul>
+	</nav>
+	</div>
+</header>
+
+	<div class="nosotros">
+			<div >
+				<h1><a href="Pages/nosotros.html">Nosotros</a></h1>
+				<p class="parrafo">Somos una empresa constructora con mas de 50 años de experiencia, en la cual hemos participado en multiples proyectos como viviendas, edificios e incluso obras para grandes industrias.
+				Estos años de basta experiencia nos ayudaron a acuñar nuestro lema y bandera que es <strong>"mas vale pájaro en mano que cien volando"</strong>. Con ésta frase como centro de todo ofrecemos una amplia variedad de servicios en el mundo inmobiliario y contamos con el respaldo de nuestro trabajo brindar la mejor atención el mejor asesoramiento a nuestros clientes.
+				</p>
+			</div>
+				
+			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+			 	 <div class="carousel-inner">
+				    <div class="carousel-item active">
+				        <img src="images/nosotros.jpg" class="d-block w-100" alt="...">
+				    </div>
+				    <div class="carousel-item">
+				      <img src="images/comercios.jpg" class="d-block w-100" alt="...">
+				    </div>
+				    <div class="carousel-item">
+				      <img src="images/casaheader.jpg" class="d-block w-100" alt="...">
+				    </div>
+				 </div>
+			</div>
+	</div>	
+
+<section>
+	<div class="pt-5 obras">
+		<h1 class="text-center"><a href="Pages/obras.html">Obras</a></h1>
+		<div class="d-flex obras">
+		<div class="col-xs-12 col-sm-12 col-md-2 a">Vivienda familiar</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 b">Vivienda multifamiliar</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 c">Edificio multivivienda</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 d">ArquitetuAR comercios</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 d">ArquitectuAR para industrias</div>
+	</div>
+	
+	
+</section>
+<section class="porpiedades">
+		<a href="Pages/propiedades.html">Propiedades</a></h1>
+		<table border="1">
+			<caption>Alquileres</caption>
+				<tr>
+					<th>Zona</th>
+					<th>Ambientes</th>
+					<th>Sup</th>
+					<th>Precio</th>
+				</tr>
+				<tr>
+					<td>Almagro</td>
+					<td>2</td>
+					<td>45 m<sup>2</sup></td>
+					<td>$12.000</td>
+				</tr>
+					<tr>
+					<td>Devoto</td>
+					<td>3</td>
+					<td>60 m<sup>2</sup></td>
+					<td>$18.000</td>
+				</tr>
+					<tr>
+					<td>Nuñez</td>
+					<td>1</td>
+					<td>32 m<sup>2</sup></td>
+					<td>$12.000</td>
+				</tr>
+			</table>
+
+</section>
+
+<section class="news">
+		<h1>News</h1>
+	</section>
+	
+<footer>
+		<content>
+	<form action="index.html" name="formulario" method="post" enctype="" >
+		<fieldset>
+			<legend>Contacto</legend>
+				<div class="form-group">
+				<div><label for="nombre">Nombre</label><input type="type" name="nombre" placeholder="Nombre"></div>
+				<div><label for="apellido">Apellido</label><input type="type" name="apellido" placeholder="Apellido"></div>
+				<div><label for="telefono">Teléfono</label><input type="type" name="telefono" placeholder="Teléfono"></div>
+				<div><label for="email">Email</label><input type="type" name="email" placeholder="Email"></div>
+				</div>
+			<textarea name="mensaje" rows="10" cols="30" placeholder="Mensaje">Mensaje</textarea>
+		<button class="btn btn-primary" type="send">Envíar</button>
+		</fieldset>
+	</form>	
+	</content>
+			<a href="#subir">Subir</a>
+			<ul>
+				<li>email <b>info@arquitectuar.com.ar</b></li>
+				<li>whatasapp <strong>03034526</strong></li>
+				<li>Instagram <strong>@aquitectuar</strong></li>
+			</ul>
+</footer>
+
+</body>
+</html>
